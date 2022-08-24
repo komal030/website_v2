@@ -6028,7 +6028,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 
 
-.logo-footer {
+. {
+
 	margin-left: 0;
 	margin-right: 0;
 	position: relative;
@@ -6036,6 +6037,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 
 .logo-footer-inner {
+	width: 130px;
 	display: table-cell;
 	vertical-align: middle;
 	height: 100%;
