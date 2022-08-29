@@ -395,7 +395,27 @@ All JavaScript fuctions Start
 		  verticaldownclass: 'fa fa-minus'
 		});	
 	}
-	
+// Home page Team Slider function by = owl.carousel.js ========================== //
+	function team_slider(){
+		jQuery('.team-slider').owlCarousel({
+			loop:true,
+			margin:10,
+			autoplay: false,
+			nav:false,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:2
+				},
+				1000:{
+					items:3
+				}
+			}
+		})
+	}
+
 // Home page Testimonial Slider function by = owl.carousel.js ========================== //
 	function testimonial_1_content(){
 	jQuery('.testimonial-1-content').owlCarousel({
@@ -698,6 +718,8 @@ All JavaScript fuctions Start
 		// > TouchSpin box function by  = jquery.bootstrap-touchspin.js =============== // 
 		input_number_vertical_form(),		
 		// Home page Testimonial Slider function by = owl.carousel.js ========================== //
+		team_slider(),
+		// Home page Team Slider function by = owl.carousel.js ========================== //
 	    testimonial_1_content(),
 		// Home page Testimonial Slider function by = owl.carousel.js ========================== //
 		testimonial_2_content(),

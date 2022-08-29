@@ -3247,7 +3247,6 @@ div.sep-leaf-left:before{	display:none;}
 
 .testimonial-2{margin: 0px 0px 0px 0px; position: relative;}
 
-.testimonial-2-content{}
 .testimonial-2-content:before{content:''; position:absolute;left:-40px; top:-40px; bottom:-40px; border:10px solid #fff; border-right:0px; width:342px;}
 
 
@@ -4704,7 +4703,7 @@ input[type=radio]:checked+label:before {
     margin-bottom: 15px;
 }
 
-.product_meta .sku, 
+.meta .sku, 
 .product_meta a{font-weight:normal; color:inherit;}
 .product_meta .sku_wrapper, .product_meta .posted_in{font-weight:700; color:#1a1a1a}
 
@@ -5929,7 +5928,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 .extra-nav .extra-cell:first-child{padding-left: 0px;}
 
-@media only screen and (max-width: 540px;){
+@media only screen and (max-width: 540px){
 .extra-nav .extra-cell {
 	padding-left: 10px;
 }
@@ -6028,7 +6027,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 
 
-. {
+.{
 
 	margin-left: 0;
 	margin-right: 0;
@@ -9742,7 +9741,6 @@ Spin circle
 	border: none;
 	font-size: 14px;
 	margin: 0 5px 5px 0px;
-}
 }
 
 .site-button-small:hover {
