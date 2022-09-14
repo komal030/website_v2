@@ -11802,3 +11802,25 @@ transition: all 0.5s ease-in-out;
 .card1:hover .d-icon-box-content p{color:#fff;}
 
 .card1:hover .site-button-link:before{background-color:#fff}
+
+
+
+/* Inner Section Header Team */
+
+.inner-section-header {
+	list-style: none;
+	text-align: center;
+	font-family: 'Rajdhani', sans-serif ;
+	font-size: 22px;
+    text-transform: uppercase;
+}
+
+.inner-section-header li {
+	display: inline-block;
+	padding: 35px 24px 35px 24px;
+}
+
+.inner-section-header a {
+	text-decoration: none;
+
+}
