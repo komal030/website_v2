@@ -11825,7 +11825,7 @@ transition: all 0.5s ease-in-out;
 	color: #d72323;
 	font-size: 25px;
 }
-.active-underline{
+.active-team .underline{
 	content: '';
 	position: relative;
 	width: 100%;
