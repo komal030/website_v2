@@ -1,6 +1,47 @@
 /* =====================================
 All JavaScript fuctions Start
 ======================================*/
+// Team inner section  change active elements
+
+function make_active(){
+	var btnContainer = document.getElementById("inner-section-container");
+
+	// Get all buttons with class="btn" inside the container
+	var btns = btnContainer.getElementsByClassName("year-btn");
+
+	// Loop through the buttons and add the active class to the current/clicked button
+	for (var i = 0; i < btns.length; i++) {
+	btns[i].addEventListener("click", function() {
+		var current = document.getElementsByClassName("active-team");
+		current[0].className = current[0].className.replace(" active-team", "");
+		this.className += " active-team";
+	});
+	}
+}
+
+// Team inner section change team comp
+
+function show_team22_23(){
+	make_active();
+	document.getElementById("team22-23").style.display = "block";
+	document.getElementById("team21-22").style.display = "none";
+	document.getElementById("team20-21").style.display = "none";
+}
+
+function show_team21_22(){
+	make_active();
+	document.getElementById("team22-23").style.display = "none";
+	document.getElementById("team21-22").style.display = "block";
+	document.getElementById("team20-21").style.display = "none";
+}
+
+function show_team20_21(){
+	make_active();
+	document.getElementById("team22-23").style.display = "none";
+	document.getElementById("team21-22").style.display = "none";
+	document.getElementById("team20-21").style.display = "block";
+}
+
 (function ($) {
 	
     'use strict';
@@ -607,6 +648,7 @@ All JavaScript fuctions Start
 		});
 	}
 
+
 /*--------------------------------------------------------------------------------------------
 	Window on load ALL FUNCTION START
 ---------------------------------------------------------------------------------------------*/
@@ -730,7 +772,8 @@ All JavaScript fuctions Start
 		//  Counter Section function by = counterup.min.js ========================== //
 		counter_section(),
 		// >Backgroung image scroling right function by = jquery.bgscroll.js	
-	    bg_image_moving();		
+	    bg_image_moving();
+		
 				
 	}); 	
 
