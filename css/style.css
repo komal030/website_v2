@@ -11802,3 +11802,65 @@ transition: all 0.5s ease-in-out;
 .card1:hover .d-icon-box-content p{color:#fff;}
 
 .card1:hover .site-button-link:before{background-color:#fff}
+
+
+
+/* Inner Section Header Team */
+
+.inner-section-header {
+	list-style: none;
+	text-align: center;
+	color: #1a1a1a;
+	font-family: 'Rajdhani', sans-serif ;
+	font-size: 22px;
+    text-transform: uppercase;
+}
+
+.inner-section-header li {
+	display: inline-block;
+	padding: 35px 24px 35px 24px;
+}
+
+.active-team a{
+	color: #d72323;
+	font-size: 25px;
+}
+.active-team .underline{
+	content: '';
+	position: relative;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	height: 3px;
+	background-color: #d72323;
+}
+
+
+.year-btn:not(.active-team) a:hover{
+	color: #d72323;
+	transition: all 0.5s ease;
+	transform-origin: center;
+}
+
+.year-btn:not(.active-team) a{
+	display: inline-block;
+	position: relative;
+}
+  
+.year-btn:not(.active-team) a:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #d72323;
+	transform-origin:center;
+	transition: transform 0.25s ease-out;
+  }
+  
+.year-btn:not(.active-team) a:hover:after {
+	transform: scaleX(1);
+	transform-origin: center;
+  }
