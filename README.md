@@ -1,2 +1,2 @@
 # website_v2
-Link to Beta Website 
+Hazard: Careful while editing. Live Site Repository 
