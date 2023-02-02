@@ -10117,6 +10117,7 @@ textarea.form-control2 {
 .wt-team-2 .team-social-center ul li a:after{position: absolute;right: -18px;	content: '';	width: 10px;	height: 1px;	background-color: #1a1a1a;	top: 10px;}
 .wt-team-2 .team-social-center ul li:last-child a:after{	display:none;}
 
+.wt-team-2 .team-social-center ul li a:hover{ color: #d72323;}
 .wt-team-2 .wt-info{	position: static; padding:30px; border-style:solid; border-color:#ddd; border-width:0px 1px 1px 1px;}
 .wt-team-2:hover .team-social-center{top:0px;}
 
